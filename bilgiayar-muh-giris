@@ -22,25 +22,4 @@ int main(){
 		    	cin>>x>>y;
 				cout<<"x-y="<<x-y;
 				break;
-			case 3:
-				cout<<"Lutfen 2 sayi giriniz:";
-				cin>>x>>y;
-				if(y==0){
-					break;
-				}
-				cout<<"x/y="<<x/y;
-				break;
-			case 4:
-				cout<<"Lutfen 2 sayi giriniz:";
-				cin>>x>>y;
-				cout<<"x.y="<<x*y;
-				break;
-			default:
-				cout<<"Gecersiz islem";
-				break;
-		}
-		cout<<"\nIslem yapmaya devam etmek icin 0a cikis yapmak icin herhangi bir sayiya tiklayiniz!";
-		cin>>e;
-	}
-	return 0;
-}
+		
