@@ -1,0 +1,2 @@
+# bilgisayar-muh-giris
+HeapMakinesi
