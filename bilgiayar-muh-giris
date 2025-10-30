@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	double x,y;
+	int e=0;
+	int i;
+	
+	while(e==0){
+	
+		cout<<"Toplama islemi icin 1\nCikarma Islemi icin 2\nBolme islemi icin 3\nCarpma islemi icin 4e basiniz\n";
+		cin>>i;
+		switch(i){
+			case 1:
+				cout<<"Lutfen 2 sayi giriniz:";
+				cin>>x>>y;
+				cout<<"x+y="<<x+y;
+				break;
+		    case 2:
+		    	cout<<"Lutfen 2 sayi giriniz:";
+		    	cin>>x>>y;
+				cout<<"x-y="<<x-y;
+				break;
+			case 3:
+				cout<<"Lutfen 2 sayi giriniz:";
+				cin>>x>>y;
+				if(y==0){
+					break;
+				}
+				cout<<"x/y="<<x/y;
+				break;
+			case 4:
+				cout<<"Lutfen 2 sayi giriniz:";
+				cin>>x>>y;
+				cout<<"x.y="<<x*y;
+				break;
+			default:
+				cout<<"Gecersiz islem";
+				break;
+		}
+		cout<<"\nIslem yapmaya devam etmek icin 0a cikis yapmak icin herhangi bir sayiya tiklayiniz!";
+		cin>>e;
+	}
+	return 0;
+}
