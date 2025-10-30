@@ -14,3 +14,9 @@
 			default:
 				cout<<"Gecersiz islem";
 				break;
+}
+		cout<<"\nIslem yapmaya devam etmek icin 0a cikis yapmak icin herhangi bir sayiya tiklayiniz!";
+		cin>>e;
+	}
+	return 0;
+}
