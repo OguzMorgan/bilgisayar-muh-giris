@@ -1,2 +1,2 @@
 # bilgisayar-muh-giris
-HeapMakinesi
+16008123123 Oguzhan Albayrak
