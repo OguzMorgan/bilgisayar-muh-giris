@@ -1,0 +1,16 @@
+	case 3:
+				cout<<"Lutfen 2 sayi giriniz:";
+				cin>>x>>y;
+				if(y==0){
+					break;
+				}
+				cout<<"x/y="<<x/y;
+				break;
+			case 4:
+				cout<<"Lutfen 2 sayi giriniz:";
+				cin>>x>>y;
+				cout<<"x.y="<<x*y;
+				break;
+			default:
+				cout<<"Gecersiz islem";
+				break;
